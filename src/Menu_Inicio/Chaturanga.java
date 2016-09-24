@@ -12,7 +12,7 @@ package Menu_Inicio;
 public class Chaturanga extends javax.swing.JFrame {
 
     /**
-     * Creates new form VampireWar
+     * Creates new form Chaturanga
      */
     public Chaturanga() {
         initComponents();

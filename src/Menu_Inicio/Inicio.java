@@ -39,7 +39,6 @@ public class Inicio extends javax.swing.JFrame {
         registrar = new javax.swing.JLabel();
         ingresar = new javax.swing.JLabel();
         logo = new javax.swing.JLabel();
-        bats = new javax.swing.JLabel();
         salir = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
@@ -69,9 +68,6 @@ public class Inicio extends javax.swing.JFrame {
 
         logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondos/logo.png"))); // NOI18N
         getContentPane().add(logo, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 30, 290, 120));
-
-        bats.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondos/bats.png"))); // NOI18N
-        getContentPane().add(bats, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 130, 250, 160));
 
         salir.setFont(new java.awt.Font("Luminari", 0, 36)); // NOI18N
         salir.setForeground(new java.awt.Color(255, 255, 255));
@@ -156,7 +152,6 @@ public class Inicio extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel bats;
     private javax.swing.JLabel ingresar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel logo;
