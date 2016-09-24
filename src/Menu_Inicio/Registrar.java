@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author samuelborjas
+ * @author Daniel Medina
  */
 public class Registrar extends javax.swing.JFrame {
     public static fondo sonido = new fondo();

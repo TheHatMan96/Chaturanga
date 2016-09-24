@@ -13,7 +13,7 @@ import javazoom.jl.decoder.JavaLayerException;
 import javazoom.jl.player.Player;
 /**
  *
- * @author samuelborjas
+ * @author Daniel Medina
  */
 public class fondo {
 

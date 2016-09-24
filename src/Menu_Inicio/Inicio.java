@@ -13,7 +13,7 @@ import javazoom.jl.player.Player;
 
 /**
  *
- * @author samuelborjas
+ * @author Daniel Medina
  */
 public class Inicio extends javax.swing.JFrame {
     public Ingresar i = new Ingresar();

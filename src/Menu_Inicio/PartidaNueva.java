@@ -7,7 +7,7 @@ package Menu_Inicio;
 
 /**
  *
- * @author samuelborjas
+ * @author Daniel Medina
  */
 public class PartidaNueva extends javax.swing.JFrame {
 

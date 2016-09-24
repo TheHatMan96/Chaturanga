@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author samuelborjas
+ * @author Daniel Medina
  */
 public class Player {
    protected String usuario;

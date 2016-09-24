@@ -7,7 +7,7 @@ package Menu_Inicio;
 
 /**
  *
- * @author samuelborjas
+ * @author Daniel Medina
  */
 public class Chaturanga extends javax.swing.JFrame {
 

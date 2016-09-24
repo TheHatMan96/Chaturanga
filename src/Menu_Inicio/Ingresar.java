@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author samuelborjas
+ * @author Daniel Medina
  */
 public class Ingresar extends javax.swing.JFrame {
 

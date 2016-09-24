@@ -10,7 +10,7 @@ import javax.swing.JPasswordField;
 
 /**
  *
- * @author samuelborjas
+ * @author Daniel Medina
  */
 public class MiCuenta extends javax.swing.JFrame {
 

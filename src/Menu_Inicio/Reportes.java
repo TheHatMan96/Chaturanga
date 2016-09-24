@@ -7,7 +7,7 @@ package Menu_Inicio;
 
 /**
  *
- * @author samuelborjas
+ * @author Daniel Medina
  */
 public class Reportes extends javax.swing.JFrame {
 

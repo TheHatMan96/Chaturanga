@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author samuelborjas
+ * @author Daniel Medina
  */
 public class MenuPrincipal extends javax.swing.JFrame {
     public Inicio inicio = new Inicio();
