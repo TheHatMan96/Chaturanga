@@ -50,14 +50,17 @@ public class PartidaNueva extends javax.swing.JFrame {
         getContentPane().add(combo, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 320, 260, 20));
 
         jLabel1.setFont(new java.awt.Font("Luminari", 0, 48)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Seleccione el Segundo");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 480, 60));
 
         jLabel2.setFont(new java.awt.Font("Luminari", 0, 48)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Player");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 70, -1, -1));
 
         cmdRegresar.setFont(new java.awt.Font("Luminari", 0, 48)); // NOI18N
+        cmdRegresar.setForeground(new java.awt.Color(255, 255, 255));
         cmdRegresar.setText("Regresar a menu");
         cmdRegresar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
@@ -67,6 +70,7 @@ public class PartidaNueva extends javax.swing.JFrame {
         getContentPane().add(cmdRegresar, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 560, -1, -1));
 
         cmdIniciarPartida1.setFont(new java.awt.Font("Luminari", 0, 48)); // NOI18N
+        cmdIniciarPartida1.setForeground(new java.awt.Color(255, 255, 255));
         cmdIniciarPartida1.setText("Iniciar Partida");
         cmdIniciarPartida1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {

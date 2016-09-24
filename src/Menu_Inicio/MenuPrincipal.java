@@ -43,6 +43,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         cmdCerrarSesion.setFont(new java.awt.Font("Luminari", 0, 48)); // NOI18N
+        cmdCerrarSesion.setForeground(new java.awt.Color(51, 51, 255));
         cmdCerrarSesion.setText("Cerrar Sesion");
         cmdCerrarSesion.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
@@ -52,7 +53,8 @@ public class MenuPrincipal extends javax.swing.JFrame {
         getContentPane().add(cmdCerrarSesion, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 490, -1, -1));
 
         cmdJugar.setFont(new java.awt.Font("Luminari", 0, 48)); // NOI18N
-        cmdJugar.setText("Jugar Vampire War ");
+        cmdJugar.setForeground(new java.awt.Color(51, 51, 255));
+        cmdJugar.setText("Jugar Chaturanga con woof ");
         cmdJugar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 cmdJugarMousePressed(evt);
@@ -61,6 +63,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         getContentPane().add(cmdJugar, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 140, 460, 90));
 
         cmdMiCuenta.setFont(new java.awt.Font("Luminari", 0, 48)); // NOI18N
+        cmdMiCuenta.setForeground(new java.awt.Color(51, 51, 255));
         cmdMiCuenta.setText("Mi Cuenta");
         cmdMiCuenta.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
@@ -70,6 +73,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         getContentPane().add(cmdMiCuenta, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 270, -1, -1));
 
         cmdReportes.setFont(new java.awt.Font("Luminari", 0, 48)); // NOI18N
+        cmdReportes.setForeground(new java.awt.Color(51, 51, 255));
         cmdReportes.setText("Reportes");
         cmdReportes.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
@@ -80,6 +84,8 @@ public class MenuPrincipal extends javax.swing.JFrame {
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondos/menuprincipal.jpg"))); // NOI18N
         jLabel1.setText("jLabel1");
+        jLabel1.setMaximumSize(new java.awt.Dimension(900, 575));
+        jLabel1.setMinimumSize(new java.awt.Dimension(900, 575));
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 950, -1));
 
         pack();

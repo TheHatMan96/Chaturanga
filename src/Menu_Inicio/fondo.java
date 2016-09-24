@@ -25,9 +25,10 @@ public class fondo {
       int a=5;
         while(a<=10) 
         try {
-            FileInputStream fis;
+            FileInputStream fis,fas;
             Player player;
-            fis = new FileInputStream("/Users/samuelborjas/NetBeansProjects/VampireWarGames/VampireWar/src/Musica/music.mp3");
+ 
+            fis = new FileInputStream("src\\Musica\\music.mp3");
             BufferedInputStream bis = new BufferedInputStream(fis);
             player = new Player(bis);
             player.play();    
@@ -49,7 +50,7 @@ public class fondo {
         try {
             FileInputStream fis;
             Player player;
-            fis = new FileInputStream("/Users/samuelborjas/NetBeansProjects/VampireWarGames/VampireWar/src/Musica/ex.mp3");
+            fis = new FileInputStream("src\\Musica\\music.mp3");
             BufferedInputStream bis = new BufferedInputStream(fis);
             player = new Player(bis);
             player.play();    
@@ -70,7 +71,7 @@ public class fondo {
         try{
         Player player;
         FileInputStream fis;
-        fis = new FileInputStream("/Users/samuelborjas/NetBeansProjects/VampireWarGames/VampireWar/src/Musica/music.mp3");
+        fis = new FileInputStream("\\Chaturanga\\src\\Musica\\music.mp3");
         BufferedInputStream bis = new BufferedInputStream(fis);
         player = new Player(bis);
         player.close();
