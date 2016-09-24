@@ -120,6 +120,7 @@ public class MiCuenta extends javax.swing.JFrame {
 
         fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondos/micuenta.jpg"))); // NOI18N
         fondo.setText("jLabel1");
+        fondo.setMaximumSize(new java.awt.Dimension(800, 573));
         getContentPane().add(fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 832, 508));
 
         pack();
