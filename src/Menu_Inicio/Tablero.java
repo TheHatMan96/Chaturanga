@@ -4,6 +4,8 @@
  * and open the template in the editor.
  */
 package Menu_Inicio;
+import Menu_Inicio.piezas.EjeCBotton;
+import Menu_Inicio.piezas.EjeCBotton;
 import java.awt.Color;
 import java.awt.GridLayout;
 import javax.swing.JFrame;

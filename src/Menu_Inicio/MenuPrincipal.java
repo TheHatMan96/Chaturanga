@@ -120,6 +120,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         this.dispose();
         Reportes r = new Reportes();
         r.setVisible(true);
+        
     }//GEN-LAST:event_cmdReportesMousePressed
 
     /**

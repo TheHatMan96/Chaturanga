@@ -85,12 +85,15 @@ public class Chaturanga extends javax.swing.JFrame {
 
     private void cmdNuevaPartidaMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_cmdNuevaPartidaMousePressed
         PartidaNueva pn = new PartidaNueva(); 
+        tablero n = new tablero();
         //pn.combo.addItem("");
         for(Player players: Player.Usuarios){
             pn.combo.addItem(players.usuario);
         }
-        this.dispose();            
-        pn.setVisible(true);
+        this.dispose();  
+        n.setVisible(true);
+                 
+        
         
     }//GEN-LAST:event_cmdNuevaPartidaMousePressed
 

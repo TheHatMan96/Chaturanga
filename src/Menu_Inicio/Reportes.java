@@ -16,6 +16,7 @@ public class Reportes extends javax.swing.JFrame {
      */
     public Reportes() {
         initComponents();
+        //init();
     }
 
     /**
@@ -91,7 +92,20 @@ public class Reportes extends javax.swing.JFrame {
             }
         });
     }
-
+    /*
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel lblGamesPen;
+    private javax.swing.JLabel lblScore;
+    private javax.swing.JLabel lblUser;
+    
+    private void init() {
+        lblUser.setText(Datos.logedin.getUsuario());
+        lblScore.setText(""+Datos.logedin.getPuntos());
+        lblGamesPen.setText(""+Datos.saver.findGamesPendientes());
+    }
+*/
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel cmdRegresar;
     private javax.swing.JLabel fondo;

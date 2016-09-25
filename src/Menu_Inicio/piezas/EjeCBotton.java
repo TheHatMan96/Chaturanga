@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Menu_Inicio;
+package Menu_Inicio.piezas;
 import java.awt.Color;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -14,19 +14,19 @@ import javax.swing.JButton;
  */
 public class EjeCBotton extends JButton{
     
-    ImageIcon caballoA;
-    ImageIcon peonA;
-    ImageIcon reyA;
-    ImageIcon reinaA;
-    ImageIcon torreA;
-    ImageIcon elefanteA;
+    public ImageIcon caballoA;
+    public ImageIcon peonA;
+    public ImageIcon reyA;
+    public ImageIcon reinaA;
+    public ImageIcon torreA;
+    public ImageIcon elefanteA;
     
-    ImageIcon caballoR;
-    ImageIcon peonR;
-    ImageIcon reyR;
-    ImageIcon reinaR;
-    ImageIcon torreR;
-    ImageIcon elefanteR;
+    public ImageIcon caballoR;
+    public ImageIcon peonR;
+    public ImageIcon reyR;
+    public ImageIcon reinaR;
+    public ImageIcon torreR;
+    public ImageIcon elefanteR;
     
     
     public EjeCBotton(){
@@ -46,6 +46,10 @@ public class EjeCBotton extends JButton{
         reinaR = new ImageIcon("src/icons/reinaNegro.png");
         torreR= new ImageIcon("src/icons/torreNegro.png");
         elefanteR = new ImageIcon("src/icons/elefanteNegro.png");
+        
+    }
+    
+    public void ReleaseEjeCBotton(ImageIcon e){
         
     }
     
